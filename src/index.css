@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Playfair Display", Georgia, serif;
+  --font-serif: "DM Serif Display", Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
   --font-writing: "Dancing Script", cursive;
   --font-royal: "Cinzel", serif;
@@ -117,7 +118,9 @@ body {
   background: var(--border-primary);
   border-radius: 10px;
 }
+/* ADD BELOW THIS LINE (after line 120) */
 
-@layer base {
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Dancing+Script:wght@400;700&family=Cinzel:wght@400;700;900&family=Special+Elite&family=JetBrains+Mono:wght@400;700&family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&family=Pacifico&family=Bebas+Neue&family=Ubuntu+Mono:wght@400;700&family=Caveat:wght@400;700&display=swap');
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  letter-spacing: -0.3px;
 }
