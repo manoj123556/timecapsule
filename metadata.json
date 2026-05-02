@@ -1,0 +1,6 @@
+{
+  "name": "TimeCapsule",
+  "description": "A secure digital diary for your precious memories - text, photos, videos, and emotions.",
+  "requestFramePermissions": ["geolocation", "camera", "microphone"],
+  "majorCapabilities": []
+}
