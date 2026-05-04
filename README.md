@@ -14,7 +14,7 @@ Preserve them in a sacred, private sanctuary designed for reflection.
 
 ## 🌟 Overview
 
-TimeCapsule is a **privacy-first digital diary** that lets you capture your life's moments with rich media, emotional context, and location tagging — enhanced by AI that understands your entries and helps you reflect.
+TimeCapsule is a **privacte digital diary** that lets you capture your life's moments with rich media, emotional context, and location tagging — enhanced by AI that understands your entries and helps you reflect.
 
 Built with React + TypeScript, Firebase, and the Claude API, it delivers a journaling experience that feels personal, intelligent, and secure.
 
